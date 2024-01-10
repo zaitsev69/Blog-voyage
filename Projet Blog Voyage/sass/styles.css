@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url("img/header_image.avif");
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav img {
+  height: 80px;
+  padding: 2rem 0rem 0rem 20rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 20rem;
+}
+header nav ul li {
+  padding: 2rem 2rem 0rem 2rem;
+}
+header nav ul #bouton {
+  background-color: rgb(33, 133, 208);
+  padding: 0.5rem;
+}
+header nav ul a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 8rem;
+  margin: 0;
+}
+header h2 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 51px;
+}
+
+section {
+  display: flex;
+}
+section div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+section div img {
+  height: 50px;
+}
+section .gris {
+  background-color: rgb(240, 240, 240);
+}
+
+.card {
+  justify-content: center;
+  margin-top: -6rem;
+}
+.card #un {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/item1.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 25rem;
+  padding-right: 0;
+}
+.card #un p {
+  color: white;
+  font-size: 400;
+}
+.card #un h3 {
+  color: white;
+}
+.card #deux {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(33, 133, 208, 0.5)), url("img/item2.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 25rem;
+  padding-left: 0;
+}
+.card #deux p {
+  color: white;
+  font-size: 400;
+}
+.card #deux h3 {
+  color: white;
+}
+
+.objectif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 3rem 0;
+}
+
+.trois div {
+  border: 0.5px solid rgb(240, 240, 240);
+}
+
+.voyage {
+  display: flex;
+  justify-content: flex-end;
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url("img/main_image.avif");
+  background-position: center;
+}
+.voyage div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem;
+}
+.voyage div h3 {
+  color: white;
+}
+.voyage div p {
+  color: white;
+  width: 20rem;
+}
+.voyage div button {
+  width: 20rem;
+  background-color: rgb(33, 133, 208);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bleu {
+  background-color: rgb(33, 133, 208);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background-color: black;
+  padding-left: 20rem;
+}
+footer div {
+  padding: 3rem 0 3rem 0;
+  width: 50%;
+  color: white;
+}
+footer div img {
+  height: 90px;
+}/*# sourceMappingURL=styles.css.map */
